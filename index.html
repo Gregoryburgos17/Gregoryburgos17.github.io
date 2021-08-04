@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!--esta contiene todos los iconos -->
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" >
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Portfolio</title>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+</head>
+<body>
+    <section id="contairner">
+        <header>
+            <div id="logo">
+                <h2>Gregory Burgos de paula </h2>
+                <h4>Software Developer & Web Designer </h4>
+            </div>
+            <div class="social-icons-container"></div>
+            <span class="social-text">
+                <button class="pulse-button">
+                    <i class="fa fa-share"></i>
+                </button>
+            </span>
+            <ul class="socialicons">
+                <li id="face"><a href=""><i class="fa fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                <li><a href=""><i class="fa fa-whatsapp"></i></a></li>
+                <li><a href=""><i class="fa fa-telegram"></i></a></li>
+            </ul>
+        </header>
+        <section id="content">
+            <div id="profile">
+                <div class="about">
+                    <div class="photo-inner">
+                        <ul>
+                            <!--width es el ancho-->
+                            <li><img src="img/foto.jpeg"  width="153" height="186"></li>
+                            
+                        </ul>
+                    </div>
+                    <h1>Gregory Burgos</h1>
+                    <h3>Software Developer & Web Designer</h3>
+                    <br>
+                    <p>
+                        Software Development student in 7th Quarterly Period at itla
+                         developed in design and creation of applications
+                    </p>
+                </div>
+                <ul class="personal-info">
+                    <li><label>Name</label><span>Gregory yeriel </span></li>
+                    <li><label>Birthday</label><span>febrary,17,2000 </span></li>
+                    <li><label>Address</label><span>Calle#19,Buena vista#1 </span></li>
+                    <li><label>Email</label><span class="word-wrap">gregoryburgos17@gmail.com</span></li>
+                    <li><label>Phone</label><span >1+829-690-4998</span></li>
+                    <li><label>Githud</label><span>github.com/Gregoryburgos17</span></li>
+                </ul>
+            </div>
+            <nav class="menu">
+                <ul class="tabs">
+                <li class="tmenu active">
+                    <a href="#profile" class="tab-profile active">
+                        <i><i class="fa fa-user"></i></i>
+                        PROFILE
+                    </a>
+                </li>
+
+                <li class="tmenu active">
+                          <a href="#resume" >
+                        <i><i class="fa fa-wpexplorer"></i></i>
+                        RESUME
+                    </a>
+                </li>
+                    <li class="tmenu active">
+                    <a href="#portfoli" >
+                        <i><i class="fa fa-eercast"></i></i>
+                        PORTFOLIO
+                    </a>
+                </li>
+                
+                <li class="tmenu active">
+                <a href="#contact" >
+                        <i><i class="fa fa-telegram"></i></i>
+                        CONTACT
+                    </a></li>
+                </ul>
+            </nav> 
+            <div class="secciones">
+                <section id="resume">
+                    <h1>Resume</h1>
+                    <div class="timeline-section">
+                        <div class="main-wrapper-resume">
+                            <div class="carttitle-wrapper">
+                                <div class="color-box ">
+                                    <div id="ocultar">
+                                        <button id="red-color" class="btn-style"></button>
+                                        <button id="yellow-color" class="btn-style"></button>
+                                        <button id="blue-color" class="btn-style"></button>
+                                        <button id="green-color" class="btn-style"></button>
+                                    </div>
+                                    <button class="setting-icon"><i class="fa fa-cog fa-spin"></i>
+                                    </button>
+                                </div>
+                                 <div class="container no-padding">
+                                     <div class="row no-margin">
+                                         <div class="col-md-6 no-padding bg-color-left">
+                                             <div class="left-name bg-color-1">
+                                                 <h2>Gregory yeriel <span class="text-color">burgos </span> </h2>
+                                                 <h5>Software Developer</h5>
+                                                 <p>My goal is to get work experience and be of use to the company or organization, carrying out everything I have learned, to become or become an elite programmer that makes efficient and profitable software or programs.</p>
+                                             </div>
+                                             <div class="left-address">
+                                                 <ul>
+                                                     <li><span class="text-color">phone no </span>RD 1+829-690-4998</li>
+                                                     <li><span class="text-color">address</span>
+                                                    dominican republic,santo domingo norte,#calle 19 </li>
+                                                    <li><span class="text-color">email </span>gregoryburgos23@gmail.com</li>
+                                                 </ul>
+                                             </div>
+                                             <div class="ex-heading">
+                                                 <h2>Experience</h2>
+                                             </div>
+                                             <div class="ex-box">
+                                                 <h2>2019-2020</h2>
+                                                 <h4>LoginPHP</h4>
+                                                 <p>
+                                                    in this project I was in charge of design and functionality
+                                                 </p>
+                                                 <a href="https://github.com/Gregoryburgos17/loginphp/tree/master/tarea8">project here</a>
+                                             </div>
+                                             <div class="ex-box">
+                                                <h2>2021</h2>
+                                                <h4>Pelismovie Vuejs</h4>
+                                                <p>
+                                                    Testing the technology of vuejs I created this web page that for use I recommend installing live-server
+                                                </p>
+                                                <a href="https://github.com/Gregoryburgos17/PelisAPI-VUEJS">project here</a>
+                                            </div>
+                                            <div class="ex-box">
+                                                <h2>2019-2020</h2>
+                                                <h4>Medilab</h4>
+                                                <p>
+                                                    In this project I cooperated with a classmate for the elaboration of a complex web page in php my role was design and operation of the crud the page was a medical office
+                                                </p>
+                                                <a href="https://github.com/Gregoryburgos17/proyectofinalweb">project here</a>
+                                            </div>
+                                            <div class="ex-box">
+                                                <h2>2021</h2>
+                                                <h4>Login and CRUD</h4>
+                                                <p>
+                                                    In this project I cooperated with a partner for the elaboration of a simple web page in php. My role was design and operation of the crud
+                                                </p>
+                                                <a href="https://github.com/karina0724/CRUD-AND-LOGIN">project here</a>
+                                            </div>
+                                         </div>
+                                         <div class="col-md-6 no-padding bg-color-right">
+                                             <div class="top-skills">
+                                                 <div class="skill-name">
+                                                     <div class="sn">C#</div>
+                                                 
+                                                 <ul>
+                                                     <li></li>
+                                                     <li></li>
+                                                     <li></li>
+                                                     <li></li>
+                                                     <li></li>
+                                                 </ul>
+                                            </div>
+                                                 <div class="skill-name">
+                                                    <div class="sn">PHP</div>
+                                                
+                                                <ul>
+                                                    <li></li>
+                                                    <li></li>
+                                                    <li></li>
+                                                    <li></li>
+                                                    <li></li>
+                                                </ul>
+                                            </div>
+                                                <div class="skill-name">
+                                                    <div class="sn">JS</div>
+                                                
+                                                <ul>
+                                                    <li></li>
+                                                    <li></li>
+                                                    <li></li>
+                                                    <li></li>
+                                                    <li></li>
+                                                </ul>
+                                            </div>
+                                                <div class="skill-name">
+                                                    <div class="sn">IA</div>
+                                                
+                                                <ul>
+                                                    <li></li>
+                                                    <li></li>
+                                                    <li></li>
+                                                    <li></li>
+                                                    <li></li>
+                                                </ul>
+                                             </div>
+                                            </div>
+                                         <div class="right-skills">
+
+                                             <div class="row no-margin">
+                                                 <div class="col-md-12 heading-skills no-padding">
+                                                     <h3>MY SKILLS</h3>
+                                                 </div>
+                                             </div>
+
+                                             <div class="row no-margin">
+                                                <div class="col-md-5  no-padding">
+                                                    <h4>MySql</h4>
+                                                </div>
+                                                <div class="col-md-7 no-padding">
+                                                    <div class="progress">
+                                                        <div class="progress-bar bg-warning progress-bar-striped" role="progressbar"
+                                                        aria-valuenow="60" aria-valuemin="0"
+                                                        aria-valuemax="100" style="width:60%"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--ojo-->
+                                            <div class="row no-margin">
+                                                <div class="col-md-5  no-padding">
+                                                    <h4>MS Office</h4>
+                                                </div>
+                                                <div class="col-md-7 no-padding">
+                                                    <div class="progress">
+                                                        <div class="progress-bar bg-warning progress-bar-striped" role="progressbar"
+                                                        aria-valuenow="60" aria-valuemin="0"
+                                                        aria-valuemax="100" style="width:60%"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--ojfina-->
+                                            <div class="row no-margin">
+                                                <div class="col-md-5  no-padding">
+                                                    <h4>.NET ASP core</h4>
+                                                </div>
+                                                <div class="col-md-7 no-padding">
+                                                    <div class="progress">
+                                                        <div class="progress-bar bg-warning progress-bar-striped" role="progressbar"
+                                                        aria-valuenow="60" aria-valuemin="0"
+                                                        aria-valuemax="100" style="width:60%"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row no-margin">
+                                                <div class="col-md-5  no-padding">
+                                                    <h4>HTml</h4>
+                                                </div>
+                                                <div class="col-md-7 no-padding">
+                                                    <div class="progress">
+                                                        <div class="progress-bar bg-warning progress-bar-striped" role="progressbar"
+                                                        aria-valuenow="60" aria-valuemin="0"
+                                                        aria-valuemax="100" style="width:60%"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row no-margin mt-25">
+                                                <div class="col-md-5  no-padding">
+                                                    <h4>JAVASCRIPT</h4>
+                                                </div>
+                                                <div class="col-md-7 no-padding">
+                                                    <div class="progress">
+                                                        <div class="progress-bar bg-warning progress-bar-striped" role="progressbar"
+                                                        aria-valuenow="60" aria-valuemin="0"
+                                                        aria-valuemax="100" style="width:60%"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--encaso de-->
+                                            
+                                            <div class="row no-margin ">
+                                                <div class="col-md-5  no-padding">
+                                                    <h4>JAVA </h4>
+                                                </div>
+                                                <div class="col-md-7 no-padding">
+                                                    <div class="progress">
+                                                        <div class="progress-bar bg-warning progress-bar-striped" role="progressbar"
+                                                        aria-valuenow="60" aria-valuemin="0"
+                                                        aria-valuemax="100" style="width:60%"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row no-margin ">
+                                                <div class="col-md-5  no-padding">
+                                                    <h4>Python</h4>
+                                                </div>
+                                                <div class="col-md-7 no-padding">
+                                                    <div class="progress">
+                                                        <div class="progress-bar bg-warning progress-bar-striped" role="progressbar"
+                                                        aria-valuenow="60" aria-valuemin="0"
+                                                        aria-valuemax="100" style="width:60%"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row no-margin ">
+                                                <div class="col-md-5  no-padding">
+                                                    <h4>React</h4>
+                                                </div>
+                                                <div class="col-md-7 no-padding">
+                                                    <div class="progress">
+                                                        <div class="progress-bar bg-warning progress-bar-striped" role="progressbar"
+                                                        aria-valuenow="60" aria-valuemin="0"
+                                                        aria-valuemax="100" style="width:60%"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row no-margin mt-25">
+                                                <div class="col-md-5  no-padding">
+                                                    <h4>VUEjs</h4>
+                                                </div>
+                                                <div class="col-md-7 no-padding">
+                                                    <div class="progress">
+                                                        <div class="progress-bar bg-warning progress-bar-striped" role="progressbar"
+                                                        aria-valuenow="60" aria-valuemin="0"
+                                                        aria-valuemax="100" style="width:60%"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="row no-margin mt-25">
+                                                <div class="col-md-12 heading-skills no-padding">
+                                                    <h3>INTERESTS</h3>
+                                                </div>
+                                                <div class="col-md-4 intestst-box">
+                                                    <div class="intestst-icons">
+                                                        <i class="fa fa-plane"></i>
+                                                        <br><br>
+                                                        <h5>TRAVEL</h5>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4 intestst-box">
+                                                    <div class="intestst-icons">
+                                                        <i class="fa fa-headphones"></i>
+                                                        <br><br>
+                                                        <h5>MUSIC</h5>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4 intestst-box">
+                                                    <div class="intestst-icons">
+                                                        <i class="fa fa-file-video-o"></i>
+                                                        <br><br>
+                                                        <h5>VIDEO</h5>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4 intestst-box">
+                                                    <div class="intestst-icons">
+                                                        <i class="fa fa-bicycle"></i>
+                                                        <br><br>
+                                                        <h5>CYCLING</h5>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4 intestst-box">
+                                                    <div class="intestst-icons">
+                                                        <i class="fa fa-cutlery"></i>
+                                                        <br><br>
+                                                        <h5>COOKING</h5>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4 intestst-box">
+                                                    <div class="intestst-icons">
+                                                        <i class="fa fa-pied-piper-alt"></i>
+                                                        <br><br>
+                                                        <h5>SPORTS</h5>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="education-right">
+                                            <div class="row no-margin">
+                                                <div class="col-md-12 heading-skills no-padding">
+                                                    <h3 class="ed">EDUCATION</h3>
+                                                    <div class="ex-box">
+                                                        <h2>2016-2018</h2>
+                                                        <h5>P.Francisco alberto caamaño</h5>
+                                                        <p>
+                                                            Francisco Alberto Caamano Polytechnic This is where I completed high school
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row no-margin">
+                                                <div class="col-md-12 heading-skills no-padding">
+                                                    <h3 class="eb">EDUCATION</h3>
+                                                    <div class="ex-box">
+                                                        <h2>2010-2018</h2>
+                                                        <h5>ITLA</h5>
+                                                        <p>
+                                                            currently where am i studying
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="address-qr-right">
+                                            <div class="row no-margin">
+                                                <div class="col-md-5 no-padding">
+                                                    <div class="qr-box">
+                                                        <img src="img/qr.png" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-7 no-padding">
+                                                    <div class="address-right-box">
+                                                        <ul>
+                                                            <li>
+                                                                <i class="fa fa-phone-square"></i>
+                                                                <p>829-690-4998</p>
+                                                            </li>
+                                                            <li>
+                                                                <i class="fa fa-envelope-o"></i>
+                                                                <p>20186730@itla.edu.do</p>
+                                                            </li>
+                                                            <li>
+                                                                <i class="fa fa-map-marker"></i>
+                                                                <p>calle 19 buena vista1</p>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                     </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+                <section id="portfoli">
+                    <ul class="cats-filter" id='portfoli-filter'>
+                        <li><a href="" class="current transition" data-filter="*">ALL</a></li>
+                        <li><a href="" class="transition" data-filter=".webdesign">Web design</a></li>
+                        <li><a href="" class="transition" data-filter=".photography">photography</a></li>
+                        <li><a href="" class="transition" data-filter=".illustracion">Illustracion</a></li>
+                        <li><a href="" class="transition" data-filter=".print">prient</a></li>
+                        <li><a href="" class="transition" data-filter=".animation">Animation</a></li>
+                    </ul>
+                    <br>
+                    <div class="extra-text">this is are interface examples </div>
+                    <ul id="portfoli-list">
+
+                        <li class="illustracion print">
+                            <a href="" class="folio">
+                                <img src="img/work3.jpg" alt="">
+                                <h2 class="title">hello world</h2>
+                                <span class="categorie"> print / illustracion </span>
+                            </a>
+                        </li>
+                        <li class="webdesign">
+                            <a href="" class="folio">
+                                <img src="img/3-thumb.jpg" alt="">
+                                <h2 class="title">snok time</h2>
+                                <span class="categorie"> Web desing </span>
+                            </a>
+                        </li>
+                        <li class="photography">
+                            <a href="" class="folio">
+                                <img src="img/2-thumb.jpg" alt="">
+                                <h2 class="title">help us</h2>
+                                <span class="categorie"> print / illustracion </span>
+                            </a>
+                        </li>
+                        <li class="animation print">
+                            <a href="" class="folio">
+                                <img src="img/4-thumb.jpg" alt="">
+                                <h2 class="title">sunshine</h2>
+                                <span class="categorie"> print / animation </span>
+                            </a>
+                        </li>
+                        <li class="animation ">
+                            <a href="" class="folio">
+                                <img src="img/5-thumb.jpg" alt="">
+                                <h2 class="title">come together</h2>
+                                <span class="categorie">  animation </span>
+                            </a>
+                        </li>
+                        <li class="webdesign print">
+                            <a href="" class="folio">
+                                <img src="img/6-thumb.jpg" alt="">
+                                <h2 class="title">the yellow</h2>
+                                <span class="categorie"> Web desing/ print </span>
+                            </a>
+                        </li>
+                        <li class="photography">
+                            <a href="" class="folio">
+                                <img src="img/7-thumb.jpg" alt="">
+                                <h2 class="title">black bird</h2>
+                                <span class="categorie"> print / illustracion </span>
+                            </a>
+                        </li>
+                        <li class="ilustration">
+                            <a href="" class="folio">
+                                <img src="img/8-thumb.jpg" alt="">
+                                <h2 class="title">revoluction</h2>
+                                <span class="categorie"> illustracion </span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </section>
+
+                <section id="contact">
+                    <div id="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7566.070770699932!2d-69.90653157733621!3d18.527303022434246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf88e0b07e0083%3A0x4ee5358fb7251057!2sUrbanizacion%20Cerros%20de%20Buena%20Vista%201ra%2C%20Santo%20Domingo%2011201!5e0!3m2!1ses-419!2sdo!4v1628102137657!5m2!1ses-419!2sdo" width="300" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <div class="contact-info">
+                        <h3 class="main-heading"><span>Contact info</span></h3>
+                        <ul>
+                            <li>No permanent job</li>
+                            <li>Available</li>
+                            <li>the form does not work</li>
+                            <li>thanks for watching</li>
+                        </ul>
+                    </div>
+                    <div class="contact-form">
+                        <h3 class="main-heading"><span>Let's keep in touch</span></h3>
+                        <br><br>
+                        <div class="contact-status">
+                            <form action="20186730@itla.edo.do"id="contactform" method="post" enctype="text/plain">
+                                <div class="form-group">
+                                    <input type="text" id="name" class="form-control">
+                                    <label class="form-control-placeholder" for="name">your name</label>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" id="Email" class="form-control">
+                                    <label class="form-control-placeholder" for="email">your email</label>
+                                </div>
+                                <label for="message">your message</label>
+                                <textarea name="message" id="" cols="88" rows="7" class="textarea"></textarea>
+                                <input type="submit" name="submit" value="SEND" class="button transition">
+
+                            </form>
+                        </div>
+                    </div>
+                
+                </section>
+                
+            </div>
+        </section>
+        <footer>
+            <div class="copyright">
+                copyright &copy; 2/8/2021 Gregory Burgos 
+            </div>
+        </footer>
+    </section>
+    <!--para el funcionamiento -->
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.easytabs/3.2.0/jquery.easytabs.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.easytabs/3.2.0/jquery.easytabs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/1.5.25/jquery.isotope.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.caroufredsel/6.2.1/jquery.carouFredSel.packed.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+</body>
+</html>
